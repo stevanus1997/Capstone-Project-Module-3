@@ -71,11 +71,11 @@ Dataset yang digunakan terdiri dari **5669 baris** dan **12 kolom**, mencakup in
 
 ## **Hasil Evaluasi**
 
-| **Model**             | **Mean RMSE** | **Mean MAE** | **Mean MAPE** | **R-Squared** |
-| --------------------- | ------------- | ------------ | ------------- | ------------- |
-| **Random Forest**     | 0.55173       | 0.24138      | 2.927922      | 0.671248      |
-| **XGBoost**           | 0.587895      | 0.280942     | 3.420790      | 0.626737      |
-| **Gradient Boosting** | 0.580900      | 0.257862     | 8.291915      | 0.628512      |
+| **Model**             | **RMSE** | **MAE** | **MAPE** | **R-Squared** |
+| --------------------- | -------- | ------- | -------- | ------------- |
+| **Random Forest**     | 3731.12  | 1591.22 | 14.42%   | 0.68568       |
+| **XGBoost**           | 4061.43  | 1956.07 | 21.14%   | 0.62756       |
+| **Gradient Boosting** | 5809.00  | 2578.62 | 8.29%    | 0.62851       |
 
 ### **Model Terbaik**: **Random Forest**
 
@@ -111,7 +111,7 @@ Variabel yang paling berpengaruh terhadap prediksi CLV adalah:
 
 Berdasarkan analisis dan evaluasi model:
 
-- Model **Random Forest** adalah model terbaik untuk memprediksi CLV, dengan nilai **MAPE sebesar 2.92%**.
+- Model **Random Forest** adalah model terbaik untuk memprediksi CLV, dengan nilai **MAPE sebesar 14.42%**.
 - **Fitur penting** yang berkontribusi terhadap CLV adalah jumlah polis, premi bulanan, jumlah klaim, dan pendapatan pelanggan.
 - **Variabel demografi** dan **karakteristik kendaraan** memiliki pengaruh yang sangat kecil terhadap prediksi CLV.
 
